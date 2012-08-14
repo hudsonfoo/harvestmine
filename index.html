@@ -1,0 +1,59 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>HarvestMine!</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+	<script type="text/javascript">
+		var ADAPT_CONFIG = {
+		  path: 'assets/css/grid/',
+		  dynamic: true,
+		  range: [
+			'0px    to 760px  = mobile.css',
+			'760px  to 980px  = 720.css',
+			'980px  to 1280px = 960.css',
+			'1280px to 1600px = 1200.css',
+			'1600px = 1560.css'
+		  ]
+		};
+	</script>
+	<script src="assets/js/libs/adapt.min.js"></script>
+	<noscript>
+		<link rel="stylesheet" href="assets/css/grid/960.css">
+	</noscript>
+	<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/dojo/1.7.3/dijit/themes/tundra/tundra.css"> 
+	<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/dojo/1.7.3/dojox/grid/resources/Grid.css"> 
+	<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/dojo/1.7.3/dojox/grid/resources/tundraGrid.css"> 
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="assets/js/libs/modernizr-2.5.3.min.js"></script>
+</head>
+<body class="tundra">
+	<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+	<div class="container_12">
+		<header class="grid_12">
+			<h1>HarvestMine!</h1>
+		</header>
+		<div role="main" class="grid_12">
+			<h2>Projects</h2>
+			<div id="projectsList" style="width:100%;height:200px;"></div>
+		</div>
+	</div>
+	<div class="container_12">
+		<div class="grid_12">
+			<h2>Issues</h2>
+			<div id="issuesList" style="width:100%;height:200px;"></div>
+		</div>
+		<footer class="grid_12">
+			&copy; David Hudson 2012
+		</footer>
+	</div>
+	<script src="//ajax.googleapis.com/ajax/libs/dojo/1.7.3/dojo/dojo.js"></script>
+	<script src="assets/js/config.js"></script>
+	<script src="assets/js/script.js"></script>
+</body>
+</html>
