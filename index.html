@@ -25,10 +25,11 @@
 	<script src="assets/js/libs/adapt.min.js"></script>
 	<noscript>
 		<link rel="stylesheet" href="assets/css/grid/960.css">
-	</noscript>
-	<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/dojo/1.7.3/dijit/themes/tundra/tundra.css"> 
-	<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/dojo/1.7.3/dojox/grid/resources/Grid.css"> 
-	<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/dojo/1.7.3/dojox/grid/resources/tundraGrid.css"> 
+    </noscript>
+    <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/dojo/1.8.1/dojo/resources/dojo.css"> 
+    <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/dojo/1.8.1/dijit/themes/tundra/tundra.css"> 
+	<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/dojo/1.8.1/dojox/grid/resources/Grid.css"> 
+	<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/dojo/1.8.1/dojox/grid/resources/tundraGrid.css"> 
 	<link rel="stylesheet" href="assets/css/style.css">
 	<script src="assets/js/libs/modernizr-2.5.3.min.js"></script>
 </head>
@@ -38,21 +39,18 @@
 		<header class="grid_12">
 			<h1>HarvestMine!</h1>
 		</header>
-		<div role="main" class="grid_12">
-			<h2>Projects</h2>
-			<div id="projectsList" style="width:100%;height:200px;"></div>
-		</div>
-	</div>
-	<div class="container_12">
-		<div class="grid_12">
-			<h2>Issues</h2>
-			<div id="issuesList" style="width:100%;height:200px;"></div>
-		</div>
+        <h2>Issues</h2>
+        <div id="issuesList" style="width:100%;height:200px;"></div>
 		<footer class="grid_12">
 			&copy; David Hudson 2012
 		</footer>
-	</div>
-	<script src="//ajax.googleapis.com/ajax/libs/dojo/1.7.3/dojo/dojo.js"></script>
+    </div>
+    <script>
+        var dojoConfig = {
+            async : 1
+        }
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/dojo/1.8.1/dojo/dojo.js"></script> 
 	<script src="assets/js/config.js"></script>
 	<script src="assets/js/script.js"></script>
 </body>
